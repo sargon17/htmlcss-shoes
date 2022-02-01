@@ -1,0 +1,52 @@
+*{
+    font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    top:30px;
+    right: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+
+a:hover{
+    color: black;
+    background-color: #ddd;
+}
+
+
+
+
+
+
+/* sections */
+section{
+    /* TODO cancellare il background */
+    border: 1px solid #575757;
+    height: 100vh;
+    width: 100vw;
+}
+#section1{
+    background: #ff0000;
+}
+#section2{
+    background: #008000;
+}
+#section3{
+    background: #ffff00;
+}
