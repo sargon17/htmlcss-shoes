@@ -10,7 +10,8 @@
 }
 
 body{
-    overflow: hidden;
+    /* //todo activare settings  */
+    /* overflow: hidden;   */
 }
 
 header{
@@ -60,10 +61,15 @@ section{
 
 
 .content-wrapper{
+    max-width: 80%;
+    max-height: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+img{
+    max-width: 80vw;
 }
 
 h2{
